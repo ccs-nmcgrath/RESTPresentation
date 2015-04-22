@@ -1,43 +1,21 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# bin and obj directories at any depth
+bin/
+obj/
 
-# Folder config file
-Desktop.ini
+# Visual studio files
+*.sln.DotSettings.user
+*.csproj.user
+*.suo
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Resharper files
+*resharper*
+_resharper*/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# MS Test runner add-in results directories at any depth
+TestResults/
 
-# Windows shortcuts
-*.lnk
+# bin directories exclusions
+!lib/NUnit/bin/
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# JMeter log
+jmeter.log
